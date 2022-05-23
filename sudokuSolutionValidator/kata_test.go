@@ -32,13 +32,6 @@ var testFalse = [][]int{
 	{3, 0, 0, 4, 8, 1, 1, 7, 9},
 }
 
-// var _ = Describe("Test Solution", func() {
-// 	It("should test that the solution returns the correct value", func() {
-// 		Expect(ValidateSolution(testTrue)).To(Equal(true))
-// 		Expect(ValidateSolution(testFalse)).To(Equal(false))
-// 	})
-// })
-
 func TestValidateSolution(t *testing.T) {
 	tests := []struct {
 		name string
