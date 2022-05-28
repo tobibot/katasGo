@@ -25,8 +25,3 @@ func TestMix(t *testing.T) {
 		})
 	}
 }
-
-dotest("2:eeeee/2:yy/=:hh/=:rr")
-dotest("uuuuuu", "uuuuuu", "=:uuuuuu")
-dotest("looping is fun but dangerous", "less dangerous than coding", 
-		"1:ooo/1:uuu/2:sss/=:nnn/1:ii/2:aa/2:dd/2:ee/=:gg")
