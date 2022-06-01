@@ -18,10 +18,9 @@ func PrimeFactors(n int) string {
 	return prettify()
 
 }
+
 func prettify() string {
 	result := ""
-
-	// Todo : sort
 	keys := make([]int, 0, len(primeFactors))
 
 	for k := range primeFactors {
@@ -31,7 +30,6 @@ func prettify() string {
 
 	for _, k := range keys {
 		v := primeFactors[k]
-		// for k, v := range primeFactors {
 		if v == 1 {
 			result += fmt.Sprintf("(%v)", k)
 		} else {
